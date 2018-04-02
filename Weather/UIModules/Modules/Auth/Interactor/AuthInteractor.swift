@@ -12,14 +12,14 @@ class AuthInteractor: AuthInteractorInput {
     private let userService = UserService()
     
     func fetchUser() {
-        self.getUserService()
+        self.getUserFromService()
         
         self.userService.completionFailure = { [weak self] (error) in
             self?.output.handleError(error: error)
         }
         
         self.userService.successSignIn = { [weak self] in
-            self?.getUserService()
+            self?.getUserFromService()
         }
         
         self.userService.successSignOut = { [weak self] in
@@ -31,7 +31,7 @@ class AuthInteractor: AuthInteractorInput {
         self.userService.signOut()
     }
     
-    private func getUserService() {
+    private func getUserFromService() {
         if let user = self.userService.user {
             self.output.loadUser(user: user)
         }
