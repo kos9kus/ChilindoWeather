@@ -1,0 +1,7 @@
+# Mac OS X
+*.DS_Store
+
+# Xcode
+Wether.xcodeproj/xcshareddata/xcschemes/
+Wether.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+Wether.xcodeproj/project.xcworkspace/xcuserdata/*
