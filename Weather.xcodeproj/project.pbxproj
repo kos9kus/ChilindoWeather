@@ -11,11 +11,9 @@
 		06F69D8C1B3D23F83B6C2646 /* AuthConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4FCEA38216E55CD4C42C7 /* AuthConfigurator.swift */; };
 		1DEE1E7C51EF459E7F95A7D2 /* BaseViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1620FCC09EBE1DA2813AA2 /* BaseViewOutput.swift */; };
 		250A4E96E7DAD63BE7DC0211 /* TodayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA43B4D8AA2C3271487F903F /* TodayRouter.swift */; };
-		2C033384ECE4A1E69B129C3D /* AuthInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FB1D1B621DEB5251C9BC /* AuthInteractorTests.swift */; };
 		2C65DE4C206D680000CC1B30 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C65DE4B206D680000CC1B30 /* LocationService.swift */; };
 		2C65DE4E206D6B8700CC1B30 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C65DE4D206D6B8700CC1B30 /* LocationTests.swift */; };
 		39D3BBBE8B391F5AB9899B89 /* AuthInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C817335D5EBD28F1B59F0B57 /* AuthInitializer.swift */; };
-		3C4B6923E9BC912A56868A95 /* AuthConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91261F42D8E27A588E2F4C6B /* AuthConfiguratorTests.swift */; };
 		3D391A2D3FC36DBFF63B720B /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6809750D1F800265FB2D3197 /* Pods_Weather.framework */; };
 		3DFA353FBAA48B77BD4FDB94 /* BaseRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55148EC40FCEA1B16D1183 /* BaseRouterInput.swift */; };
 		4B882254E07D853E42409B3F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C558777EC4F6ADF490B8F37 /* AuthViewController.swift */; };
@@ -55,12 +53,10 @@
 		8119E35FE7795710353EBA85 /* WeeklyViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BBB01F0F921C958BEAE50 /* WeeklyViewOutput.swift */; };
 		81569BEEE21A44DD453BBBF5 /* AuthRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64E9A918BA1990C9C303B6D /* AuthRouterInput.swift */; };
 		850F07CCFEDBB0B8D727D698 /* TodayInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A20DC8CEC19E992635EDE /* TodayInteractorOutput.swift */; };
-		90653D09BD4C98F3C908889C /* AuthPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F490D1F13FDDAEDC2DD707 /* AuthPresenterTests.swift */; };
 		9A81330376E7CF7E14C4A249 /* AuthViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF77B5D980010D2E881558B7 /* AuthViewInput.swift */; };
 		9FEA4F4B3B2A6CDE981C4702 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953C107AD8C05722312666A6 /* BasePresenter.swift */; };
 		A896EC45D6B9D9F52B25342D /* TodayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403090B1E16BE5679446045C /* TodayPresenter.swift */; };
 		AAC7D4E27FE5665A83D4B232 /* TodayViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5652072B4044B64A9074FCFD /* TodayViewOutput.swift */; };
-		ABDBD67E9FF5D3353F4D8B3E /* AuthRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58D5C7E414B50C7EB31FF54 /* AuthRouterTests.swift */; };
 		AC13D062145FE93DFE57A91C /* BaseInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1FC15196D6ACCE223EF64 /* BaseInteractorOutput.swift */; };
 		AE48990A7AEC84B48142A2CD /* WeeklyInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC0987395B1B555226AD57C /* WeeklyInteractorOutput.swift */; };
 		B0E28A4D68852BE621B37D3C /* TodayRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A651576C53231AE745C49562 /* TodayRouterInput.swift */; };
@@ -80,7 +76,6 @@
 		ED10CFD381E074A4104B0440 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FFB8D2F74CE4B75BD4F9F4 /* BaseInteractor.swift */; };
 		F3907CF58CEE6C8C97E675E0 /* WeeklyModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6F1B233DC53D647BFEECA /* WeeklyModuleInput.swift */; };
 		F3FB9A3D936571764CC40C0E /* WeeklyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BF3A1794AF2604D4CFC930 /* WeeklyPresenter.swift */; };
-		F4952D20CF20285D08F8819B /* AuthViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D65FE8F45E3E4F6A21BA90F /* AuthViewTests.swift */; };
 		FA64788B0541AF7EADD4DFD8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546978742F491E9E312C1FF0 /* BaseViewController.swift */; };
 		FBD3E5F9589FB8F70323B9A1 /* WeeklyInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886329BE2F96E5538BDF88DF /* WeeklyInteractorInput.swift */; };
 /* End PBXBuildFile section */
@@ -105,7 +100,6 @@
 		226FC2885E99627DEC150A21 /* TodayModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayModuleInput.swift; sourceTree = "<group>"; };
 		2C65DE4B206D680000CC1B30 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		2C65DE4D206D6B8700CC1B30 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
-		2E44FB1D1B621DEB5251C9BC /* AuthInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthInteractorTests.swift; sourceTree = "<group>"; };
 		398CBC32A20952A0E36E87CE /* AuthInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
 		3C558777EC4F6ADF490B8F37 /* AuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		3CB55A481A62307CD8851284 /* WeeklyViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeeklyViewInput.swift; sourceTree = "<group>"; };
@@ -151,12 +145,9 @@
 		839190CBDF551AE16850C723 /* TodayViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayViewInput.swift; sourceTree = "<group>"; };
 		886329BE2F96E5538BDF88DF /* WeeklyInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeeklyInteractorInput.swift; sourceTree = "<group>"; };
 		8A72B1C0D660E478C3362B33 /* BaseRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
-		91261F42D8E27A588E2F4C6B /* AuthConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthConfiguratorTests.swift; sourceTree = "<group>"; };
 		926F9B0D5C22C035095A07D1 /* TodayConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayConfigurator.swift; sourceTree = "<group>"; };
-		93F490D1F13FDDAEDC2DD707 /* AuthPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthPresenterTests.swift; sourceTree = "<group>"; };
 		953C107AD8C05722312666A6 /* BasePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		965F4AF87CDDB74DFB9501E0 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather/Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
-		9D65FE8F45E3E4F6A21BA90F /* AuthViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewTests.swift; sourceTree = "<group>"; };
 		A17A20DC8CEC19E992635EDE /* TodayInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayInteractorOutput.swift; sourceTree = "<group>"; };
 		A418393362E0964450154143 /* BaseModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseModuleInput.swift; sourceTree = "<group>"; };
 		A651576C53231AE745C49562 /* TodayRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodayRouterInput.swift; sourceTree = "<group>"; };
@@ -174,7 +165,6 @@
 		D8A1FC15196D6ACCE223EF64 /* BaseInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseInteractorOutput.swift; sourceTree = "<group>"; };
 		DDE4FCEA38216E55CD4C42C7 /* AuthConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthConfigurator.swift; sourceTree = "<group>"; };
 		DFD6F1B233DC53D647BFEECA /* WeeklyModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeeklyModuleInput.swift; sourceTree = "<group>"; };
-		E58D5C7E414B50C7EB31FF54 /* AuthRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRouterTests.swift; sourceTree = "<group>"; };
 		EC55148EC40FCEA1B16D1183 /* BaseRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseRouterInput.swift; sourceTree = "<group>"; };
 		FEC97E7D2B85BD0FA8D6533B /* Pods-WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherTests/Pods-WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF337398335A6ADE687BC2DF /* BaseInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseInteractorInput.swift; sourceTree = "<group>"; };
@@ -389,7 +379,6 @@
 				2C65DE4D206D6B8700CC1B30 /* LocationTests.swift */,
 				70E6DDCC2064599500DAA731 /* Info.plist */,
 				F400E140CCD4E23964D9A165 /* Base */,
-				A2E9C2744DAC1D340D4F4315 /* Auth */,
 			);
 			path = WeatherTests;
 			sourceTree = "<group>";
@@ -428,14 +417,6 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		7435A15CEE22CF3E6C6C0275 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				E58D5C7E414B50C7EB31FF54 /* AuthRouterTests.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		7CE996B1FB657DB45B594380 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,34 +447,6 @@
 				18C9A97865964CE4F3117604 /* Configurator */,
 			);
 			path = Today;
-			sourceTree = "<group>";
-		};
-		A2E9C2744DAC1D340D4F4315 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				E2F9AB2FEF066F7610E2BFE0 /* Configurator */,
-				DC6ADD3F52D6D9724FDCE804 /* View */,
-				B0347AB599CD05B0852AF1D7 /* Interactor */,
-				AA6328B644E05986DD194B5F /* Presenter */,
-				7435A15CEE22CF3E6C6C0275 /* Router */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		AA6328B644E05986DD194B5F /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				93F490D1F13FDDAEDC2DD707 /* AuthPresenterTests.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		B0347AB599CD05B0852AF1D7 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				2E44FB1D1B621DEB5251C9BC /* AuthInteractorTests.swift */,
-			);
-			path = Interactor;
 			sourceTree = "<group>";
 		};
 		C400555C24E232C6C1A2EE39 /* View */ = {
@@ -548,14 +501,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		DC6ADD3F52D6D9724FDCE804 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9D65FE8F45E3E4F6A21BA90F /* AuthViewTests.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		E1AB045C518C64DB5CE94328 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,14 +509,6 @@
 				462A3652453238663F6C16A3 /* WeeklyViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		E2F9AB2FEF066F7610E2BFE0 /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				91261F42D8E27A588E2F4C6B /* AuthConfiguratorTests.swift */,
-			);
-			path = Configurator;
 			sourceTree = "<group>";
 		};
 		E77D5668C7FF0836CF5B23BE /* Presenter */ = {
@@ -933,11 +870,6 @@
 				2C65DE4E206D6B8700CC1B30 /* LocationTests.swift in Sources */,
 				5145AC5AC2D1AB113594B209 /* BaseInteractorTests.swift in Sources */,
 				D51E7A6E849DC8E63A9F169B /* BasePresenterTests.swift in Sources */,
-				3C4B6923E9BC912A56868A95 /* AuthConfiguratorTests.swift in Sources */,
-				F4952D20CF20285D08F8819B /* AuthViewTests.swift in Sources */,
-				2C033384ECE4A1E69B129C3D /* AuthInteractorTests.swift in Sources */,
-				90653D09BD4C98F3C908889C /* AuthPresenterTests.swift in Sources */,
-				ABDBD67E9FF5D3353F4D8B3E /* AuthRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

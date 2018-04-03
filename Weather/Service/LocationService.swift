@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftLocation
+import CoreLocation
 
 extension LocationError: ErrorDescriptorProtocol {
     var descriptor: ErrorDescriptor {
@@ -50,23 +51,12 @@ class LocationService {
     
     
 	func requestAuthorizationLocation(accessGranted: @escaping (AccessGranted) -> ()) {
-        if Locator.authorizationStatus == .authorizedWhenInUse {
-            accessGranted(.Success)
-        }
-        
+		accessGranted(self.getAccessGranted(status: Locator.authorizationStatus))
+		
 		Locator.requestAuthorizationIfNeeded(.whenInUse)
-		_ = Locator.events.listen { newStatus in
+		_ = Locator.events.listen { [unowned self] newStatus in
 			print("Authorization status changed to \(newStatus)")
-			switch newStatus {
-			case .notDetermined:
-				accessGranted(.Idle)
-			case .authorizedAlways, .authorizedWhenInUse:
-				accessGranted(.Success)
-				break
-			default:
-				accessGranted(.Failed)
-				break
-			}
+			accessGranted(self.getAccessGranted(status: newStatus))
 		}
 	}
 	
@@ -81,6 +71,17 @@ class LocationService {
 			} else {
 				failureCompletion(error)
 			}
+		}
+	}
+	
+	private func getAccessGranted(status: CLAuthorizationStatus) -> AccessGranted {
+		switch status {
+		case .notDetermined:
+			return .Idle
+		case .authorizedAlways, .authorizedWhenInUse:
+			return .Success
+		default:
+			return .Failed
 		}
 	}
 }
